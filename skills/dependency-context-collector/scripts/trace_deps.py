@@ -44,8 +44,8 @@ def main() -> None:
     )
 
     bundled_md = result["bundled_markdown"]
-    files = result["files"]
-    total_tokens = result["total_tokens"]
+    files = result["dependency_files"]
+    total_tokens = result["tokens"]
 
     if args.output:
         out_p = Path(args.output)

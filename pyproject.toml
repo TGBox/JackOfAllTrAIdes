@@ -1,0 +1,12 @@
+[project]
+name = "jack-of-all-traides"
+version = "0.1.0"
+description = "Curated token-reduction skills for AI coding agents."
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "beautifulsoup4>=4.12",
+    "pypdf>=4.0",
+    "python-docx>=1.1",
+    "tiktoken>=0.7",
+]
